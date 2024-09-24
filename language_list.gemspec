@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "language_list/version"
 
 Gem::Specification.new do |s|
-  s.name        = "language_list"
+  s.name        = "tp-language_list"
   s.version     = LanguageList::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Steve Smith"]
   s.email       = ["gems@dynedge.co.uk"]
-  s.homepage    = "https://github.com/scsmith/language_list"
+  s.homepage    = "https://github.com/dabroz/language_list"
   s.summary     = %q{A list of languages and methods to find and work with these languages.}
   s.description = %q{A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages.}
 
